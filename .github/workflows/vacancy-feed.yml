@@ -1,0 +1,27 @@
+name: NVP vacancy feed
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # every Monday 06:00 UTC
+  workflow_dispatch:       # adds a "Run workflow" button for manual runs
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4
+      - run: python nvp_vacancy_check.py
+      - name: Save results to the repository
+        run: |
+          git config user.name "vacancy-bot"
+          git config user.email "vacancy-bot@users.noreply.github.com"
+          git add feed.xml seen.json nvp_vacancies.csv
+          git commit -m "Weekly vacancy check" || echo "No changes"
+          git push
