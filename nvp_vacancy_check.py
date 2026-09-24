@@ -1,11 +1,12 @@
 """
 NVP member vacancy checker.
-Visits each NVP member website, looks for a careers/vacancies page,
+First refreshes the member list from the NVP website, then visits each member website, looks for a careers/vacancies page,
 and reports whether that page mentions openings.
 
 Run:  pip install requests beautifulsoup4
       python nvp_vacancy_check.py
 Output: nvp_vacancies.csv  (one row per member, with links to check by hand)
+        members.json       (current member list; changes logged in member_changes.txt)
         feed.xml           (RSS feed of firms with likely openings, for Meltwater)
 """
 import csv, re, time
@@ -90,8 +91,57 @@ def check(name, url):
         row["result"] = "CAREERS PAGE, NO OPENINGS DETECTED"
     return row
 
+
+# ---------- Member list: refresh from the NVP website before each run ----------
+import json, os
+from datetime import date
+
+NVP_MEMBERS_URL = "https://nvp.nl/over/ledenoverzicht/leden/"
+MEMBERS_FILE = "members.json"          # last known member list
+CHANGES_FILE = "member_changes.txt"    # log of additions and removals
+
+def fetch_members():
+    """Member links on the NVP page: links with a text label that point outside nvp.nl.
+    (Social media and footer logos are image links without text, so they are skipped.)"""
+    soup = get(NVP_MEMBERS_URL)
+    found, seen = [], set()
+    for a in soup.find_all("a", href=True):
+        name, href = a.get_text(" ", strip=True), a["href"].strip()
+        host = urlparse(href).netloc.lower()
+        if name and host and not host.endswith("nvp.nl") and href not in seen:
+            seen.add(href)
+            found.append([name, href])
+    return found
+
+def load_members():
+    known = json.load(open(MEMBERS_FILE)) if os.path.exists(MEMBERS_FILE) else MEMBERS
+    try:
+        current = fetch_members()
+    except Exception as e:
+        print(f"Could not read NVP member page ({type(e).__name__}); using last known list.")
+        return known
+    # Safety check: if the page suddenly shows far fewer members, the layout probably
+    # changed. Keep the old list rather than silently dropping firms.
+    if len(current) < 0.8 * len(known):
+        print(f"NVP page gave {len(current)} members vs {len(known)} known; "
+              "looks wrong, using last known list.")
+        return known
+    old, new = {u: n for n, u in known}, {u: n for n, u in current}
+    added = [(new[u], u) for u in new if u not in old]
+    removed = [(old[u], u) for u in old if u not in new]
+    if added or removed:
+        with open(CHANGES_FILE, "a", encoding="utf-8") as f:
+            f.write(f"\n{date.today().isoformat()}\n")
+            for n, u in added:
+                f.write(f"  ADDED    {n} | {u}\n")
+            for n, u in removed:
+                f.write(f"  REMOVED  {n} | {u}\n")
+    print(f"Members: {len(current)} ({len(added)} added, {len(removed)} removed)")
+    json.dump(current, open(MEMBERS_FILE, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+    return current
+
 # ---------- RSS output ----------
-import hashlib, json, os
+import hashlib
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from xml.sax.saxutils import escape
@@ -139,9 +189,10 @@ def write_rss(rows):
     return len(items)
 
 if __name__ == "__main__":
+    members = load_members()
     out = []
-    for i, (name, url) in enumerate(MEMBERS, 1):
-        print(f"[{i}/{len(MEMBERS)}] {name}")
+    for i, (name, url) in enumerate(members, 1):
+        print(f"[{i}/{len(members)}] {name}")
         out.append(check(name, url))
         time.sleep(1)  # be polite to the sites
     with open("nvp_vacancies.csv", "w", newline="", encoding="utf-8") as f:
