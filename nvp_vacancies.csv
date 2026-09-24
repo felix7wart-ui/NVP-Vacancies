@@ -19,7 +19,7 @@ AVerest Capital,https://www.averest.nl/,ok,https://www.averest.nl/vacatures,,"st
 AXECO Participaties,https://www.axeco.nl/participaties/,ok,,,,,NO CAREERS PAGE FOUND
 BB Capital Investments,http://www.bbcapital.nl,ok,https://bbcapital.nl/carriere/,,"intern, internship, vacature",,LIKELY OPENINGS
 Beek Capital,https://www.beekcapital.nl/en/,ok,,,,,NO CAREERS PAGE FOUND
-Bencis Capital Partners,http://www.bencis.nl,ok,,,,,NO CAREERS PAGE FOUND
+Bencis Capital Partners,http://www.bencis.nl,error: ConnectionError,,,,,CHECK BY HAND
 Berk Partners,http://www.berkpartners.nl,ok,,,,,NO CAREERS PAGE FOUND
 BioGeneration Ventures,http://www.biogenerationventures.com,ok,https://biogenerationventures.com/en/careers/,,vacancy,,LIKELY OPENINGS
 Bolster Investment Partners,http://www.bolsterinvestments.nl/,ok,https://bolsterinvestments.nl/werken-bij/,,"associate, intern, stagiair, vacature",,LIKELY OPENINGS
@@ -130,7 +130,7 @@ Synergia Capital Partners,http://www.synergia.nl,ok,http://www.synergia.nl/nl/va
 Thuja Capital Management,http://www.thujacapital.com,ok,,,,,NO CAREERS PAGE FOUND
 TIN Capital,http://www.tiincapital.nl,error: ConnectionError,,,,,CHECK BY HAND
 TNO Ventures Holding B.V.,https://ventures.tno.nl/,ok,,,,,NO CAREERS PAGE FOUND
-Torqx Capital Partners,https://www.torqxcapital.com/nl/,ok,,,,,NO CAREERS PAGE FOUND
+Torqx Capital Partners,https://www.torqxcapital.com/nl/,ok,https://www.torqxcapital.com/nl/intern-programs/,,stagiair,,LIKELY OPENINGS
 TransEquity Network,http://www.transequity.nl,ok,http://www.transequity.nl/vacatures,,vacature,,LIKELY OPENINGS
 Triton,http://www.triton-partners.com,ok,http://www.triton-partners.com/careers,https://tritonpartners.wd3.myworkdayjobs.com/External,"associate, internship, open position, we are looking",,JOBS ON EXTERNAL PLATFORM - CHECK LINK
 Twinning Participaties,https://www.twinningparticipaties.nl/,ok,,,,,NO CAREERS PAGE FOUND
