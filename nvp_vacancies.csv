@@ -57,10 +57,10 @@ Freshstream Netherlands,https://freshstream.com/,ok,,,,,NO CAREERS PAGE FOUND
 Gilde Equity Management,http://www.gembenelux.com,ok,,,,,NO CAREERS PAGE FOUND
 Gilde Healthcare Partners,http://www.gildehealthcare.com,ok,http://www.gildehealthcare.com/career-opportunities,,,,"CAREERS PAGE, NO OPENINGS DETECTED"
 Gimv Nederland Holding,http://www.gimv.nl,ok,,,,,"CAREERS PAGE, NO OPENINGS DETECTED"
-Graduate Ventures Pre-Seed,https://www.graduate.nl/,ok,https://jobs.graduate.nl/jobs,,"intern, internship, job opening",,LIKELY OPENINGS
+Graduate Ventures Pre-Seed,https://www.graduate.nl/,ok,https://jobs.graduate.nl/jobs,,"associate, intern, internship, job opening",,LIKELY OPENINGS
 Health Investment Partners,http://healthinvestmentpartners.nl/,ok,,,,,NO CAREERS PAGE FOUND
 Holland Capital Management,https://hollandcapital.nl/,ok,https://hollandcapital.nl/vacatures-investeringsmaatschappij/,,"analyst, intern, internship, praktikum, vacancies, vacature, we are looking",,LIKELY OPENINGS
-Horizon Flevoland,https://www.horizonflevoland.nl/ik-zoek-geld,ok,,,,,NO CAREERS PAGE FOUND
+Horizon Flevoland,https://www.horizonflevoland.nl/ik-zoek-geld,ok,https://horizonflevoland.nl/werken-bij/,,,,"CAREERS PAGE, NO OPENINGS DETECTED"
 Horticoop,https://www.horticoop.nl/,ok,,,,,NO CAREERS PAGE FOUND
 HPE Growth,http://www.hpegrowthcapital.com,ok,,,,,"CAREERS PAGE, NO OPENINGS DETECTED"
 IBS Fund Management,https://ibsca.nl/,error: HTTPError,,,,,CHECK BY HAND
@@ -101,23 +101,23 @@ NOM,https://www.nom.nl/,ok,https://www.nom.nl/over-ons/werken-bij-de-nom/,,vacat
 Nordian Capital Partners,http://www.nordian.nl,ok,,,,,NO CAREERS PAGE FOUND
 NPM Capital N.V.,http://www.npm-capital.com,ok,,,,,NO CAREERS PAGE FOUND
 O2 Capital Partners B.V.,https://o2capital.nl/,ok,,,,,NO CAREERS PAGE FOUND
-One Two Capital,https://www.onetwocapital.com/nl/,ok,https://www.onetwocapital.com/nl/carriere,,"analyst, stagiair, vacature",,LIKELY OPENINGS
+One Two Capital,https://www.onetwocapital.com/nl/,error: HTTPError,,,,,CHECK BY HAND
 Oost NL,https://oostnl.nl/nl,ok,https://oostnl.nl/werken-bij-oost-nl,,vacature,,LIKELY OPENINGS
 Panta Holdings B.V.,https://www.pantaholdings.nl,ok,https://pantaholdings.nl/werken-bij/,,vacature,geen vacatures,UNCLEAR - CHECK BY HAND
 Parcom,http://www.parcom.com,ok,,,,,NO CAREERS PAGE FOUND
 Photon Capital Partners,https://www.photoncapital.com,ok,,,,,NO CAREERS PAGE FOUND
 Plain Vanilla Investments,http://www.plainvanilla.nl,ok,http://www.plainvanilla.nl/jobs,,,,"CAREERS PAGE, NO OPENINGS DETECTED"
-Pontex Investment Partners,https://pontex-ip.nl/,ok,,,,,NO CAREERS PAGE FOUND
+Pontex Investment Partners,https://pontex-ip.nl/,ok,https://pontex-ip.nl/vacatures/,,"analyst, associate, stagiair, vacature",,LIKELY OPENINGS
 Pride Capital Partners,https://www.pridecapital.nl/,ok,https://www.pridecapital.nl/vacancies,,"associate, vacancies, we are looking",,LIKELY OPENINGS
 Prime Ventures,http://www.primeventures.com,ok,,,,,NO CAREERS PAGE FOUND
 Quadrum Capital,http://www.quadrum-capital.nl/,ok,https://www.quadrum-capital.nl/en/about-quadrum/vacancies,,"associate, internship, vacancies",,LIKELY OPENINGS
 Rabo Investments,https://raboinvestments.com/nl/,ok,,,,,NO CAREERS PAGE FOUND
 Rivean Capital,https://riveancapital.com/,ok,,,,,NO CAREERS PAGE FOUND
 Riverside Europe,https://www.riversideeurope.com/,error: ConnectionError,,,,,CHECK BY HAND
-Rockstart,https://rockstart.com/,ok,,,,,NO CAREERS PAGE FOUND
+Rockstart,https://rockstart.com/,ok,https://jobs.rockstart.com/,https://recruitee.com,"internship, open position",,JOBS ON EXTERNAL PLATFORM - CHECK LINK
 ROM InWest,https://rominwest.nl/,ok,,https://rominwest.homerun.co/,,,JOBS ON EXTERNAL PLATFORM - CHECK LINK
 ROM Utrecht Region,https://www.romutrechtregion.nl/investeren/,error: HTTPError,,,,,CHECK BY HAND
-Rubio,https://www.rubio.vc/,ok,,,,,NO CAREERS PAGE FOUND
+Rubio,https://www.rubio.vc/,ok,https://rubio.getro.com/companies,,,,"CAREERS PAGE, NO OPENINGS DETECTED"
 SEAM Investments,https://seaminvestments.nl/,ok,,,,,NO CAREERS PAGE FOUND
 SET Ventures,http://www.setventures.com,ok,https://careers.setventures.com/jobs,,internship,,LIKELY OPENINGS
 SHIFT Invest,http://www.shiftinvest.com,ok,,,,,"CAREERS PAGE, NO OPENINGS DETECTED"
