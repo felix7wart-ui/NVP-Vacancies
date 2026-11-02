@@ -19,7 +19,7 @@ AVerest Capital,https://www.averest.nl/,ok,https://www.averest.nl/vacatures,,"st
 AXECO Participaties,https://www.axeco.nl/participaties/,ok,,,,,NO CAREERS PAGE FOUND
 BB Capital Investments,http://www.bbcapital.nl,ok,https://bbcapital.nl/carriere/,,"intern, internship, vacature",,LIKELY OPENINGS
 Beek Capital,https://www.beekcapital.nl/en/,ok,,,,,NO CAREERS PAGE FOUND
-Bencis Capital Partners,http://www.bencis.nl,error: ConnectionError,,,,,CHECK BY HAND
+Bencis Capital Partners,http://www.bencis.nl,ok,,,,,NO CAREERS PAGE FOUND
 Berk Partners,http://www.berkpartners.nl,ok,,,,,NO CAREERS PAGE FOUND
 BioGeneration Ventures,http://www.biogenerationventures.com,ok,https://biogenerationventures.com/en/careers/,,vacancy,,LIKELY OPENINGS
 Bolster Investment Partners,http://www.bolsterinvestments.nl/,ok,https://bolsterinvestments.nl/werken-bij/,,"associate, intern, stagiair, vacature",,LIKELY OPENINGS
@@ -44,21 +44,21 @@ Deep Tech Capital Management,https://www.deeptechxl.com/,ok,,,,,NO CAREERS PAGE 
 Dei Capital Management,https://www.dei-capital.com/,ok,,,,,NO CAREERS PAGE FOUND
 DELTA Equity Partners,https://delta-equitypartners.com/,ok,,,,,NO CAREERS PAGE FOUND
 DFF Ventures,https://www.dff.ventures/,ok,,,,,"CAREERS PAGE, NO OPENINGS DETECTED"
-Dolfin,http://www.dolfincapital.com/,ok,,,,,NO CAREERS PAGE FOUND
-Écart Invest,http://www.ecart.nl,ok,,,,,NO CAREERS PAGE FOUND
-ECFG Venture Capital,https://ecfg.nl/en/venture-capital/,ok,https://ecfg.nl/en/over-ecfg/onze-vacatures/,,"job opening, vacancies",no open vacancies,UNCLEAR - CHECK BY HAND
-Egeria Capital Management,http://www.egeria.nl,ok,https://egeriagroup.com/career/,https://egeria.recruitee.com/,"associate, vacancies",,JOBS ON EXTERNAL PLATFORM - CHECK LINK
-EQT Life Sciences,https://eqtgroup.com/private-capital/eqt-life-sciences,ok,https://eqtgroup.com/about/careers,https://job-boards.eu.greenhouse.io/eqtpartners/jobs/4282949101,"associate, job opening",,JOBS ON EXTERNAL PLATFORM - CHECK LINK
-EQT Partners Netherlands,https://eqtgroup.com/private-capital/private-equity/,ok,https://eqtgroup.com/about/careers,https://job-boards.eu.greenhouse.io/eqtpartners/jobs/4282949101,"associate, job opening",,JOBS ON EXTERNAL PLATFORM - CHECK LINK
-Esses Capital Partners,https://www.essescapitalpartners.com/,ok,,,,,NO CAREERS PAGE FOUND
-Fairtree Elevant Management B.V.,https://www.fairtree.com/elevantventures/,ok,https://www.fairtree.com/careers/,,,,"CAREERS PAGE, NO OPENINGS DETECTED"
-Forbion,http://www.forbion.com,ok,http://www.forbion.com/about-us/careers/,,,,"CAREERS PAGE, NO OPENINGS DETECTED"
-Freshstream Netherlands,https://freshstream.com/,ok,,,,,NO CAREERS PAGE FOUND
-Future Tech Ventures,https://www.futuretechventures.nl,ok,,,,,NO CAREERS PAGE FOUND
-Gilde Equity Management,http://www.gembenelux.com,ok,,,,,NO CAREERS PAGE FOUND
+Dolfin,http://www.dolfincapital.com/,error: ConnectionError,,,,,CHECK BY HAND
+Écart Invest,http://www.ecart.nl,error: ConnectionError,,,,,CHECK BY HAND
+ECFG Venture Capital,https://ecfg.nl/en/venture-capital/,error: ConnectionError,,,,,CHECK BY HAND
+Egeria Capital Management,http://www.egeria.nl,error: ConnectionError,,,,,CHECK BY HAND
+EQT Life Sciences,https://eqtgroup.com/private-capital/eqt-life-sciences,error: ConnectionError,,,,,CHECK BY HAND
+EQT Partners Netherlands,https://eqtgroup.com/private-capital/private-equity/,error: ConnectionError,,,,,CHECK BY HAND
+Esses Capital Partners,https://www.essescapitalpartners.com/,error: ConnectionError,,,,,CHECK BY HAND
+Fairtree Elevant Management B.V.,https://www.fairtree.com/elevantventures/,error: ConnectionError,,,,,CHECK BY HAND
+Forbion,http://www.forbion.com,error: ConnectionError,,,,,CHECK BY HAND
+Freshstream Netherlands,https://freshstream.com/,error: ConnectionError,,,,,CHECK BY HAND
+Future Tech Ventures,https://www.futuretechventures.nl,error: ConnectionError,,,,,CHECK BY HAND
+Gilde Equity Management,http://www.gembenelux.com,error: ConnectionError,,,,,CHECK BY HAND
 Gilde Healthcare Partners,http://www.gildehealthcare.com,ok,http://www.gildehealthcare.com/career-opportunities,,,,"CAREERS PAGE, NO OPENINGS DETECTED"
 Gimv Nederland Holding,http://www.gimv.nl,ok,,,,,"CAREERS PAGE, NO OPENINGS DETECTED"
-Graduate Ventures Pre-Seed,https://www.graduate.nl/,ok,https://jobs.graduate.nl/jobs,https://meetnance.homerun.co/account-executive/en?utm_source=Graduate+Ventures+job+board&utm_medium=getro.com&gh_src=Graduate+Ventures+job+board,"analyst, associate, job opening",,JOBS ON EXTERNAL PLATFORM - CHECK LINK
+Graduate Ventures Pre-Seed,https://www.graduate.nl/,ok,https://jobs.graduate.nl/jobs,,"associate, internship, job opening",,LIKELY OPENINGS
 Health Investment Partners,http://healthinvestmentpartners.nl/,ok,,,,,NO CAREERS PAGE FOUND
 Holland Capital Management,https://hollandcapital.nl/,ok,https://hollandcapital.nl/vacatures-investeringsmaatschappij/,,"analyst, intern, internship, praktikum, vacancies, vacature, we are looking",,LIKELY OPENINGS
 Horizon Flevoland,https://www.horizonflevoland.nl/ik-zoek-geld,ok,https://horizonflevoland.nl/werken-bij/,,vacature,,LIKELY OPENINGS
@@ -67,12 +67,12 @@ HPE Growth,http://www.hpegrowthcapital.com,ok,,,,,"CAREERS PAGE, NO OPENINGS DET
 IBS Fund Management,https://ibsca.nl/,error: HTTPError,,,,,CHECK BY HAND
 IceLake Capital,https://www.icelakecapital.com/,ok,https://icelake.com/careers/,,"internship, we are looking",,LIKELY OPENINGS
 ICOS Capital Management,http://www.icoscapital.com,ok,,,,,NO CAREERS PAGE FOUND
-Imec.istart,https://www.imecistart.com/,ok,https://www.imecistart.com/en/jobs,https://join.com/companies/shayp?widgetv2=true&pid=d73d1a20e99ab4ced63316826424-marketing-coordinator-assistant-internship&id=companies%2Fshayp&utm_source=imec.istart+job+board&utm_medium=getro.com&gh_src=imec.istart+job+board,internship,,JOBS ON EXTERNAL PLATFORM - CHECK LINK
+Imec.istart,https://www.imecistart.com/,ok,https://jobs.imecistart.com/jobs,,"associate, internship, vacancies",,LIKELY OPENINGS
 imecXpand,https://imecxpand.com/,ok,,,,,NO CAREERS PAGE FOUND
 Impuls Zeeland,https://www.impulszeeland.nl/nl/het-Zeeuws-Participatiefonds,ok,https://www.impulszeeland.nl/over/vacatures,,vacature,,LIKELY OPENINGS
 Indofin Group,https://www.indofin.com/,ok,,,,,NO CAREERS PAGE FOUND
 Infinity Recycling,http://www.infinity-recycling.com/,error: HTTPError,,,,,CHECK BY HAND
-Inflexion,https://www.inflexion.com/,ok,,,,,NO CAREERS PAGE FOUND
+Inflexion,https://www.inflexion.com/,error: ConnectionError,,,,,CHECK BY HAND
 ING Corporate Investments B.V.,https://www.ingwb.com/en/strategic-finance/corporate-investments,error: ReadTimeout,,,,,CHECK BY HAND
 Innovatiefonds Noord-Holland,https://www.innovatiefondsnoordholland.nl,ok,,,,,NO CAREERS PAGE FOUND
 Innovation Industries,http://www.innovationindustries.com,ok,http://www.innovationindustries.com/careers,,,,"CAREERS PAGE, NO OPENINGS DETECTED"
@@ -85,9 +85,9 @@ Kohlberg Kravis Roberts & Co Partners,https://www.kkr.com/,ok,https://www.kkr.co
 Levine Leichtman Capital Partners,http://www.llcp.com,ok,,,,,NO CAREERS PAGE FOUND
 Lexar Partners,https://lexarpartners.com/,ok,https://lexarpartners.com/werken-bij/,,"internship, stagiair, vacancies, vacature",,LIKELY OPENINGS
 LIOF,http://www.liof.nl,ok,https://werkenbijliof.nl/,,vacature,,LIKELY OPENINGS
-LUMO Labs,https://lumolabs.io/,ok,https://lumolabs.io/jobs/,,"analyst, associate, open position",,LIKELY OPENINGS
+LUMO Labs,https://lumolabs.io/,ok,https://lumolabs.io/jobs,,,,"CAREERS PAGE, NO OPENINGS DETECTED"
 Main Capital Partners,http://www.main.nl,error: HTTPError,,,,,CHECK BY HAND
-Marktlink Capital,https://www.marktlinkcapital.com/nl/,ok,https://careers.marktlinkcapital.com/,https://recruitee.com,"intern, open position",,JOBS ON EXTERNAL PLATFORM - CHECK LINK
+Marktlink Capital,https://www.marktlinkcapital.com/nl/,ok,https://careers.marktlinkcapital.com/,https://recruitee.com,"associate, intern, open position",,JOBS ON EXTERNAL PLATFORM - CHECK LINK
 Mentha Capital,https://mentha.eu/,ok,https://mentha.eu/vacancies/,,"intern, vacancies",,LIKELY OPENINGS
 MGF,https://www.mgf.nl/,ok,,,,,NO CAREERS PAGE FOUND
 Move Energy Fund Management B.V.,https://www.moveenergy.vc,ok,https://moveenergy.vc/investment-intern-vacancy/,,"intern, vacancy",,LIKELY OPENINGS
@@ -111,40 +111,40 @@ Plain Vanilla Investments,http://www.plainvanilla.nl,ok,http://www.plainvanilla.
 Pontex Investment Partners,https://pontex-ip.nl/,ok,https://pontex-ip.nl/vacatures/,,"analyst, associate, stagiair, vacature",,LIKELY OPENINGS
 Pride Capital Partners,https://www.pridecapital.nl/,ok,https://www.pridecapital.nl/vacancies,,"associate, vacancies, we are looking",,LIKELY OPENINGS
 Prime Ventures,http://www.primeventures.com,ok,,,,,NO CAREERS PAGE FOUND
-Quadrum Capital,http://www.quadrum-capital.nl/,ok,https://www.quadrum-capital.nl/nl/over-quadrum/vacatures,,"associate, stagiair, vacature",,LIKELY OPENINGS
+Quadrum Capital,http://www.quadrum-capital.nl/,ok,https://www.quadrum-capital.nl/en/about-quadrum/vacancies,,"associate, internship, vacancies",,LIKELY OPENINGS
 Rabo Investments,https://raboinvestments.com/nl/,ok,,,,,NO CAREERS PAGE FOUND
 Rivean Capital,https://riveancapital.com/,ok,,,,,NO CAREERS PAGE FOUND
 Riverside Europe,https://www.riversideeurope.com/,error: ConnectionError,,,,,CHECK BY HAND
-Rockstart,https://rockstart.com/,ok,,,,,NO CAREERS PAGE FOUND
+Rockstart,https://rockstart.com/,error: HTTPError,,,,,CHECK BY HAND
 ROM InWest,https://rominwest.nl/,ok,,https://rominwest.homerun.co/,,,JOBS ON EXTERNAL PLATFORM - CHECK LINK
 ROM Utrecht Region,https://www.romutrechtregion.nl/investeren/,error: HTTPError,,,,,CHECK BY HAND
 Rubio,https://www.rubio.vc/,ok,https://rubio.getro.com/companies,,,,"CAREERS PAGE, NO OPENINGS DETECTED"
 SEAM Investments,https://seaminvestments.nl/,ok,,,,,NO CAREERS PAGE FOUND
 SET Ventures,http://www.setventures.com,ok,https://careers.setventures.com/jobs,,internship,,LIKELY OPENINGS
-SHIFT Invest,http://www.shiftinvest.com,ok,,,,,"CAREERS PAGE, NO OPENINGS DETECTED"
+SHIFT Invest,http://www.shiftinvest.com,ok,http://www.shiftinvest.com/careers,https://omrt.recruitee.com/o/growth-marketer,"analyst, associate, intern, internship, stagiair, we are looking, werkstudent",,JOBS ON EXTERNAL PLATFORM - CHECK LINK
 Smile Invest,http://www.smile-invest.com,ok,,,,,NO CAREERS PAGE FOUND
 Smile Sail & AI N.V.,https://www.smile-sail.com/,ok,,,,,NO CAREERS PAGE FOUND
 Sofindev Management N.V.,https://www.sofindev.com,ok,https://www.sofindev.com/nl/jobs,,"analyst, internship, stageplaats, vacature",momenteel geen,UNCLEAR - CHECK BY HAND
-StartGreen Capital,http://www.startgreen.nl,ok,https://startgreen.nl/werken-bij/,,"vacature, we zoeken, wij zoeken",,LIKELY OPENINGS
-Strong Root Capital,https://www.strongrootcapital.nl/,ok,,,,,NO CAREERS PAGE FOUND
-Synergia Capital Partners,http://www.synergia.nl,ok,,,,,NO CAREERS PAGE FOUND
-Thuja Capital Management,http://www.thujacapital.com,ok,,,,,NO CAREERS PAGE FOUND
-TIN Capital,http://www.tiincapital.nl,ok,,,,,NO CAREERS PAGE FOUND
-TNO Ventures Holding B.V.,https://ventures.tno.nl/,ok,,,,,NO CAREERS PAGE FOUND
-Torqx Capital Partners,https://www.torqxcapital.com/nl/,ok,https://www.torqxcapital.com/nl/intern-programs/,,stagiair,,LIKELY OPENINGS
-TransEquity Network,http://www.transequity.nl,ok,http://www.transequity.nl/vacatures/,,vacature,,LIKELY OPENINGS
-Triton,http://www.triton-partners.com,ok,http://www.triton-partners.com/careers,https://tritonpartners.wd3.myworkdayjobs.com/External,"associate, internship, open position, we are looking",,JOBS ON EXTERNAL PLATFORM - CHECK LINK
-Twinning Participaties,https://www.twinningparticipaties.nl/,ok,,,,,NO CAREERS PAGE FOUND
-Ufenau Capaital Partners B.V.,https://www.ucp.ch,ok,https://ucp.ch/en/career/,https://ufenau-capital-partners.jobs.personio.com/,"open position, vacancies",,JOBS ON EXTERNAL PLATFORM - CHECK LINK
-VADO Beheer,https://www.vado.nl/,ok,,,,,NO CAREERS PAGE FOUND
-Value Creation Capital B.V.,https://www.vcxc.com/,ok,,,,,NO CAREERS PAGE FOUND
-Value Enhancement Partners,http://www.vepartners.com,ok,,,,,NO CAREERS PAGE FOUND
-Value Factory Management B.V.,https://www.valuefactory.vc,ok,,,,,NO CAREERS PAGE FOUND
-Vendis Capital Management,http://www.vendiscapital.com,ok,,,,,NO CAREERS PAGE FOUND
-Victus Participations,https://victusparticipations.com/,ok,,,,,NO CAREERS PAGE FOUND
-Volve Capital,https://www.volve.capital/,ok,,,,,NO CAREERS PAGE FOUND
-Vortex Capital Partners,http://www.vortexcp.com,ok,https://vortexcp.com/careers/,,"internship, open position",,LIKELY OPENINGS
+StartGreen Capital,http://www.startgreen.nl,error: ConnectionError,,,,,CHECK BY HAND
+Strong Root Capital,https://www.strongrootcapital.nl/,error: ConnectionError,,,,,CHECK BY HAND
+Synergia Capital Partners,http://www.synergia.nl,error: ConnectionError,,,,,CHECK BY HAND
+Thuja Capital Management,http://www.thujacapital.com,error: ConnectionError,,,,,CHECK BY HAND
+TIN Capital,http://www.tiincapital.nl,error: ConnectionError,,,,,CHECK BY HAND
+TNO Ventures Holding B.V.,https://ventures.tno.nl/,error: ConnectionError,,,,,CHECK BY HAND
+Torqx Capital Partners,https://www.torqxcapital.com/nl/,error: ConnectionError,,,,,CHECK BY HAND
+TransEquity Network,http://www.transequity.nl,error: ConnectionError,,,,,CHECK BY HAND
+Triton,http://www.triton-partners.com,error: ConnectionError,,,,,CHECK BY HAND
+Twinning Participaties,https://www.twinningparticipaties.nl/,error: ConnectionError,,,,,CHECK BY HAND
+Ufenau Capaital Partners B.V.,https://www.ucp.ch,error: ConnectionError,,,,,CHECK BY HAND
+VADO Beheer,https://www.vado.nl/,error: ConnectionError,,,,,CHECK BY HAND
+Value Creation Capital B.V.,https://www.vcxc.com/,error: ConnectionError,,,,,CHECK BY HAND
+Value Enhancement Partners,http://www.vepartners.com,error: ConnectionError,,,,,CHECK BY HAND
+Value Factory Management B.V.,https://www.valuefactory.vc,error: ConnectionError,,,,,CHECK BY HAND
+Vendis Capital Management,http://www.vendiscapital.com,error: ConnectionError,,,,,CHECK BY HAND
+Victus Participations,https://victusparticipations.com/,error: ConnectionError,,,,,CHECK BY HAND
+Volve Capital,https://www.volve.capital/,error: ConnectTimeout,,,,,CHECK BY HAND
+Vortex Capital Partners,http://www.vortexcp.com,error: ConnectionError,,,,,CHECK BY HAND
 VP Capital,https://vpcapital.eu/en/,ok,,,,,NO CAREERS PAGE FOUND
 Wadinko,http://www.wadinko.nl,ok,http://www.wadinko.nl/nieuws/vacature-financieel-analist,,vacature,,LIKELY OPENINGS
 Warburg Pincus B.V.,https://www.warburgpincus.com/,error: HTTPError,,,,,CHECK BY HAND
-Waterland Private Equity Investments,http://www.waterland.nu,error: HTTPError,,,,,CHECK BY HAND
+Waterland Private Equity Investments,http://www.waterland.nu,ok,https://www.waterlandpe.com/nl/carrieres/,,"associate, internship, vacature, we zoeken",,LIKELY OPENINGS
